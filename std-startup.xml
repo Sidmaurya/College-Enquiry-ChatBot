@@ -1,0 +1,11 @@
+<aiml>
+
+
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+<learn>database/*.aiml</learn>
+</template>
+</category>
+
+</aiml>

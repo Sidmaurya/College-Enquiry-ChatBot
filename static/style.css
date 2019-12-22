@@ -1,0 +1,94 @@
+body {
+    font-family: Garamond;
+}
+
+h1 {
+    text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 60px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 70px;
+}
+
+#textInput {
+	height: 45px; 
+    width: 90%;
+    border: 2px solid blue;
+	border-radius: 2px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 20px;
+	margin-top: -65px;
+	margin-left: 775px;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #009688;
+    padding: 10px;
+	border-radius: 25px;
+	padding: 10px;
+	background:green;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+	border-radius: 25px;
+	padding: 10px;
+	background:grey;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.botText span {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
