@@ -1,36 +1,37 @@
-# Online Marketing
+# College Enquiry Chatbot
 
-Online Marketing is a e-commorce platform where retailer can purchase product from distributer . the main feature of this 
-project is to , It will automatically send notification to retailer before expiry of product.
+College enquiry chatbot is a based on NLP and developed in python flask . this can help studend as well as college/school faculty 
+for geting any information in just by a single query.
 
 ### Prerequisites
 
 ```
 python 3.4 or higher
-django
-paytm-django
-pillow
+flask
+NLTK
+AIML
+
 
 ```
 
 ### Installing
 
-install django
+install flask
 
 ```
-pip install django
+pip install flask
 ```
 
-install paytm-django
+install NLTK
 
 ```
-git clone https://github.com/harishbisht/paytm-django.git
+pip install -U nltk
 ```
 
 install pillow
 
 ```
-pip install pillow
+pip install aiml
 ```
 
 
