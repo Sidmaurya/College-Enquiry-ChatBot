@@ -33,7 +33,11 @@ install pillow
 ```
 pip install aiml
 ```
-
+download all packeges of NLTK
+```
+import nltk
+nltk.download ()
+```
 
 
 
